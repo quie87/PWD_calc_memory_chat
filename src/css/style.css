@@ -1,0 +1,39 @@
+/*Main css for desktop*/
+body {
+	background-image: url(../image/wallpaper.jpg);
+	background-size: cover;
+}
+
+#wrapper {
+	max-width: 100%;
+	min-height: 95vh;
+	text-align: center;
+}
+
+/* Css for app container and the apps inside */
+#appContainer li {
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+#appContainer img {
+	height: 3.5em;
+	width: 3.5em;
+}
+
+img {
+	padding: 0.3em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.app {
+  padding: 1em;
+  transition: transform .2s;
+}
+
+.app:hover {
+  transform: scale(1.5);
+}
